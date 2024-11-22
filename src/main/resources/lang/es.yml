@@ -1,0 +1,17 @@
+# Authentication
+welcome: "§c¡Bienvenido al servidor! Tienes 30 segundos para autenticarte. Mientras tanto, serás invencible."
+already-authenticated: "§aYa has iniciado sesión. ¡Bienvenido de nuevo!"
+timeout: "§cNo te autenticaste a tiempo. Has sido expulsado del servidor."
+move: "¡Te moviste más de 3 veces antes de autenticarte! Has sido expulsado."
+move-warn: "No puedes moverte hasta que te autentiques."
+dont-move-auth: "¡Han pasado 60 segundos sin que te autentiques! Has sido expulsado."
+register-auth: "§cPor favor, ingresa el comando correctamente: /register <contraseña> <confirmar contraseña>"
+register-auth-success: "§a¡Registro exitoso! Ahora, continúa con el inicio de sesión."
+register-auth-fail: "§cLas contraseñas no coinciden. Inténtalo de nuevo."
+login-auth: "§cPor favor, ingresa el comando correctamente: /login <contraseña>"
+login-auth-success: "§a¡Contraseña correcta! ¡Bienvenido!"
+login-auth-fail: "§cNo te encuentras registrado en el servidor o tu contraseña es incorrecta. Realiza el registro."
+
+# Discord Webhook
+join-webhook-message: "Entrada de %s %s"
+exit-webhook-message: "Salida de %s %s"

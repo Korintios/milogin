@@ -1,0 +1,17 @@
+# Authentication
+welcome: "§cWelcome to the server! You have 30 seconds to authenticate. In the meantime, you'll be invincible."
+already-authenticated: "§aYou are already logged in. Welcome back!"
+timeout: "§cYou didn't authenticate in time. You have been kicked from the server."
+move: "You moved more than 3 times before authenticating! You have been kicked."
+move-warn: "You cannot move until you authenticate."
+dont-move-auth: "§cYou haven't authenticated in 60 seconds! You have been kicked."
+register-auth: "§cPlease enter the command correctly: /register <password> <confirm password>"
+register-auth-success: "§aRegistration successful! Now, proceed with logging in."
+register-auth-fail: "§cThe passwords do not match. Please try again."
+login-auth: "§cPlease enter the command correctly: /login <password>"
+login-auth-success: "§aCorrect password! Welcome!"
+login-auth-fail: "§cYou are not registered on the server or your password is incorrect. Please register."
+
+# Discord Webhook
+join-webhook-message: "Join from %s %s"
+exit-webhook-message: "Exit from %s %s"

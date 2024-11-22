@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS "users" (
+   "id" INTEGER NOT NULL UNIQUE,
+   "username" VARCHAR(132) NOT NULL UNIQUE,
+   "pass" VARCHAR(64) NOT NULL,
+   "registrationDate" DATETIME NOT NULL,
+   PRIMARY KEY("id")
+);
+
+CREATE TABLE IF NOT EXISTS "log" (
+   "log_id" INTEGER NOT NULL UNIQUE,
+   "username" VARCHAR(132) NOT NULL,
+   "logDate" DATETIME NOT NULL,
+   "type" VARCHAR(4) NOT NULL,
+   PRIMARY KEY("log_id")
+);

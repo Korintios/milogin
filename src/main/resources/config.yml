@@ -1,0 +1,21 @@
+# General configuration for the Milogin plugin.
+
+# Language settings.
+lang: 'en'
+# Maximum time in seconds a player has to authenticate.
+# If they don't authenticate within this time, they will be kicked.
+auth-timeout: 30  # In seconds (e.g., 60 seconds)
+
+# Database configuration.
+database:
+  type: sqlite # Actually sqlite.
+  sqlite:
+    file: "plugins/MiLogin/database.db"
+
+# Discord Webhook system.
+discord:
+  enable: false
+  bot-name: "" # Bot name visible in discord.
+  bot-image-url: "" # Profile picture of bot.
+  webhook-id: ""
+  webhook-token: ""

@@ -1,0 +1,31 @@
+name: MiLogin
+author: Juan Camilo V.M
+version: 1.0
+main: milo.MiLogin
+api-version: 1.20
+commands:
+  register:
+    description: Register in the server for login.
+    permission: milogin.auth.register
+    permission-message: You do not have permission!
+    usage: /<command> <pass> <confirm pass>
+  login:
+    description: Auth in the server for login.
+    aliases:
+      - auth
+    permission: milogin.auth.login
+    permission-message: You do not have permission!
+    usage: /<command> <pass>
+permissions:
+  milogin.auth.register:
+    description: Command for register in the server.
+    default: true
+  milogin.auth.login:
+    description: Command for auth in the server
+    default: true
+  milogin.auth.*:
+    description: Allows for all authentication commands for users.
+    default: true
+    children:
+      - milogin.auth.register
+      - milogin.auth.login
