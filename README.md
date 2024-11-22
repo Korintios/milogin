@@ -86,8 +86,6 @@ Este proyecto es de código abierto, lo que significa que puedes descargarlo, pe
    cd milogin
    ```  
 
----
-
 ### Paso 2: Importar el Proyecto en IntelliJ IDEA  
 1. Abre **IntelliJ IDEA**.  
 2. Selecciona la opción **"Open"** y busca la carpeta donde clonaste el repositorio `milogin`.  
@@ -95,8 +93,6 @@ Este proyecto es de código abierto, lo que significa que puedes descargarlo, pe
    - Ve al menú **View → Tool Windows → Maven** y selecciona **Reload All Maven Projects**.  
 4. Configura el **JDK** para el proyecto (se recomienda Java 17 para compatibilidad con Spigot 1.20.1):  
    - Ve a **File → Project Structure → SDK** y selecciona tu instalación de Java 17.  
-
----
 
 ### Paso 3: Compilar el Proyecto  
 Una vez que el proyecto esté configurado en IntelliJ IDEA:  
@@ -113,16 +109,12 @@ Una vez que el proyecto esté configurado en IntelliJ IDEA:
 
 4. Después de compilar, encontrarás el archivo JAR generado en la carpeta `target`, con un nombre similar a `milogin-1.0-SNAPSHOT.jar`.  
 
----
-
 ### Paso 4: Configuración del Servidor  
 1. Copia el archivo JAR generado en la carpeta `plugins` de tu servidor Minecraft.  
 2. Inicia el servidor para que el plugin genere automáticamente los archivos de configuración.  
 3. Navega a la carpeta `plugins/MiLogin` y edita el archivo `config.yml` para personalizar:  
    - **Conexión a la base de datos** (MySQL o SQLite).  
    - **Discord Webhooks** (opcional).  
-
----
 
 ### Paso 5: Reiniciar el Servidor  
 - Después de personalizar el archivo de configuración, reinicia el servidor para aplicar los cambios.  
