@@ -77,7 +77,7 @@ Este proyecto es de código abierto, lo que significa que puedes descargarlo, pe
 2. Clona el repositorio en tu máquina local utilizando el siguiente comando:  
 
    ```bash
-   git clone https://github.com/tu-usuario/milogin.git
+   git clone https://github.com/Korintios/milogin.git
    ```  
 
 3. Navega al directorio del proyecto:  
@@ -105,9 +105,6 @@ Una vez que el proyecto esté configurado en IntelliJ IDEA:
 2. Selecciona las opciones **Clean** y luego **Install** para realizar una limpieza y construcción del proyecto:  
    - **Clean:** Elimina archivos temporales de compilaciones anteriores.  
    - **Install:** Descarga las dependencias necesarias y compila el proyecto.  
-
-   ![Maven Clean and Install](#)
-
 3. Alternativamente, puedes usar el atajo de terminal dentro de IntelliJ para ejecutar:  
 
    ```bash
