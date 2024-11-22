@@ -1,4 +1,6 @@
 # MiLogin  
+<img src="https://github.com/user-attachments/assets/3adc7e0b-9adf-43f2-9b45-a7ac562573e7" width="100%" style="border-radius:10px"/>
+
 Plugin de autenticación para Minecraft, desarrollado como parte de una **prueba técnica**. Diseñado para ofrecer máxima seguridad, registro detallado y una integración avanzada con herramientas externas, **MiLogin** es la solución ideal para servidores que buscan proteger a sus jugadores mientras facilitan la administración.
 
 ## ✨ Características  
